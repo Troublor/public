@@ -1,0 +1,188 @@
+[DEBUG] homePath: HOME environment variable set
+[DEBUG] homePath: /home/troublor
+[DEBUG] configDirBase: WARNING - no XDG_CONFIG_HOME environment variable set
+[DEBUG] configDirBase: /home/troublor/.config
+[DEBUG] configDirName: Configuring application to use default config path
+Using Config Dir: /home/troublor/.config/onedrive
+[DEBUG] sync_dir: Getting syncDir from config value sync_dir
+[DEBUG] sync_dir: A '~' was found in configured sync_dir, automatically expanding as SHELL and USER environment variable is set
+[DEBUG] syncDir: /home/troublor/OneDrive
+Initializing the OneDrive API ...
+[DEBUG] Downgrading all HTTP operations to HTTP/1.1 by default
+Opening the item database ...
+[DEBUG] Using database file: /home/troublor/.config/onedrive/items.sqlite3
+All operations will be performed in: /home/troublor/OneDrive
+[DEBUG] Loading user configured sync_list file ...
+[DEBUG] sync_list: PhD
+[DEBUG] sync_list: troubleLearning/COMP 5331 Knowledge Discovery in Databases
+[DEBUG] sync_list: troubleLearning/COMP 5211 Advanced Artificial Intelligence
+[DEBUG] Configuring skip_dir ...
+[DEBUG] skip_dir: 
+[DEBUG] Configuring skip_file ...
+[DEBUG] skip_file: ~*|.~*|*.tmp
+[DEBUG] OneDrive Account Details:      {"@odata.context":"https:\/\/graph.microsoft.com\/v1.0\/$metadata#drives\/$entity","driveType":"personal","id":"634e7a42d2e3dd1a","owner":{"user":{"displayName":"Aaron Zhang","id":"634e7a42d2e3dd1a"}},"quota":{"deleted":563053557,"remaining":1034940657010,"state":"normal","total":1104880336896,"used":69939679886}}
+[DEBUG] OneDrive Account Root Details: {"@odata.context":"https:\/\/graph.microsoft.com\/v1.0\/$metadata#users('troublor%40live.com')\/drive\/root\/$entity","cTag":"adDo2MzRFN0E0MkQyRTNERDFBITEwNy42MzcwODE5NjQwMDA1NzAwMDA","createdBy":{"user":{"displayName":"Aaron Zhang","id":"634e7a42d2e3dd1a"}},"createdDateTime":"2013-06-08T10:38:51.55Z","eTag":"aNjM0RTdBNDJEMkUzREQxQSExMDcuMA","fileSystemInfo":{"createdDateTime":"2013-06-08T10:38:51.55Z","lastModifiedDateTime":"2013-06-08T10:38:51.55Z"},"folder":{"childCount":12,"view":{"sortBy":"name","sortOrder":"ascending","viewType":"thumbnails"}},"id":"634E7A42D2E3DD1A!107","lastModifiedBy":{"user":{"displayName":"Aaron Zhang","id":"634e7a42d2e3dd1a"}},"lastModifiedDateTime":"2019-11-01T09:13:20.057Z","name":"root","parentReference":{"driveId":"634e7a42d2e3dd1a","driveType":"personal"},"root":{},"size":69939679886,"webUrl":"https:\/\/onedrive.live.com\/?cid=634e7a42d2e3dd1a"}
+Application version: v2.3.10-7-g9d0a653
+Account Type: personal
+Default Drive ID: 634e7a42d2e3dd1a
+Default Root ID: 634E7A42D2E3DD1A!107
+Remaining Free Space: 1034940657010
+Fetching details for OneDrive Root
+OneDrive Root exists in the database
+Initializing the Synchronization Engine ...
+Initializing monitor ...
+OneDrive monitor interval (seconds): 45
+Monitor directory: .
+Monitor directory: ./PhD
+Monitor directory: ./PhD/wander around
+Monitor directory: ./PhD/paper
+Monitor directory: ./PhD/paper/Archive
+Monitor directory: ./PhD/application
+Monitor directory: ./PhD/application/visa_issues
+Monitor directory: ./PhD/application/visa_issues/hkid_ide995a_doc
+Monitor directory: ./PhD/application/visa_issues/hkid_ide995a_pdf
+Monitor directory: ./PhD/application/Huawei PhD Fellowship
+Monitor directory: ./PhD/enrollment
+Monitor directory: ./PhD/paper_writing
+Monitor directory: ./PhD/paper_writing/01
+Monitor directory: ./PhD/paper_writing/01/elsarticle-template
+Monitor directory: ./PhD/paper_writing/01/drafts
+Monitor directory: ./PhD/paper_writing/01/drafts/section3
+Monitor directory: ./PhD/paper_writing/01/资料
+Monitor directory: ./PhD/paper_writing/01/资料/3.图
+Monitor directory: ./PhD/paper_writing/01/资料/3.图/表1中图
+Monitor directory: ./PhD/paper_writing/01/资料/2.重点参考文献
+Monitor directory: ./PhD/paper_writing/01/资料/1.参考文献
+Monitor directory: ./PhD/conferences
+Monitor directory: ./PhD/internship
+Monitor directory: ./PhD/internship/Cert No.469
+Monitor directory: ./PhD/prepare
+Monitor directory: ./PhD/prepare/blockchain architecture
+Monitor directory: ./PhD/prepare/general test literature
+Monitor directory: ./PhD/prepare/blockchain application literature
+Monitor directory: ./PhD/prepare/blockchain application literature/references
+Monitor directory: ./PhD/prepare/smart contract literature
+Monitor directory: ./PhD/prepare/smart contract literature/references
+Monitor directory: ./PhD/prepare/reading reports
+Monitor directory: ./PhD/prepare/Other Papers
+Monitor directory: ./PhD/UG Course Wavier
+Monitor directory: ./PhD/UG Course Wavier/Operating System
+Monitor directory: ./PhD/UG Course Wavier/Algorithm Design and Analysis
+Monitor directory: ./PhD/UG Course Wavier/Computing Theory
+Monitor directory: ./troubleLearning
+Monitor directory: ./troubleLearning/COMP 5331 Knowledge Discovery in Databases
+Monitor directory: ./troubleLearning/COMP 5331 Knowledge Discovery in Databases/hw1
+Monitor directory: ./troubleLearning/COMP 5331 Knowledge Discovery in Databases/project
+Monitor directory: ./troubleLearning/COMP 5331 Knowledge Discovery in Databases/hw2
+Monitor directory: ./troubleLearning/COMP 5331 Knowledge Discovery in Databases/PPT
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q6
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q7
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q3
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q4
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q5
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q8
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q2
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/test_cases/q1
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/program-file/layouts
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/.idea
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/.idea/dictionaries
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/.idea/inspectionProfiles
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q6
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q7
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q3
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q4
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q5
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q8
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q2
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/test_cases/q1
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment2/problem7/layouts
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/project1
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/project1/pacman
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/project1/pacman/layouts
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/project1_testcases
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/learning
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/.idea
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/.idea/dictionaries
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/.idea/inspectionProfiles
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/.idea/libraries
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem4-5/layouts
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3/.idea
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3/.idea/dictionaries
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3/.idea/inspectionProfiles
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3/.idea/libraries
+Monitor directory: ./troubleLearning/COMP 5211 Advanced Artificial Intelligence/assignment1/problem3/__pycache__
+[DEBUG] event IN_CREATE: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file last modified time has changed
+The file content has changed
+Uploading modified file PhD/ppt_file.pptx ... skipped.
+OneDrive returned a 'HTTP 404 - eTag Issue' - gracefully handling error
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+Uploading new file PhD/ppt_file.pptx ... done.
+[DEBUG] Adding to database: Item("634e7a42d2e3dd1a", "634E7A42D2E3DD1A!159797", "ppt_file.pptx", file, "aNjM0RTdBNDJEMkUzREQxQSExNTk3OTcuMg", "aYzo2MzRFN0E0MkQyRTNERDFBITE1OTc5Ny4yNTc", 2019-Nov-01 05:46:18.172Z, "634E7A42D2E3DD1A!132858", "", "AE8A67723A8CC8E7179BD2BFC0CE7CE431BAA0C6", "", "", "")
+Remaining free space: 1034940029776
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file has not changed
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file last modified time has changed
+The file content has changed
+Uploading modified file PhD/ppt_file.pptx ... done.
+[DEBUG] Adding to database: Item("634e7a42d2e3dd1a", "634E7A42D2E3DD1A!159797", "ppt_file.pptx", file, "aNjM0RTdBNDJEMkUzREQxQSExNTk3OTcuNQ", "aYzo2MzRFN0E0MkQyRTNERDFBITE1OTc5Ny4yNTg", 2019-Nov-01 09:14:52Z, "634E7A42D2E3DD1A!132858", "", "39D8F80742EF7FB0C29D4E9FC90616D9E7148E0B", "", "", "")
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file has not changed
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file has not changed
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+[DEBUG] event IN_MOVED_FROM: PhD/ppt_file.pptx
+[DEBUG] event IN_CREATE: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Processing ppt_file.pptx
+The file has not changed
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+[DEBUG] deleting (post loop): PhD/ppt_file.pptx
+[M] Item deleted: PhD/ppt_file.pptx
+Deleting item from OneDrive: PhD/ppt_file.pptx
+[DEBUG] event IN_CLOSE_WRITE and ...: PhD/ppt_file.pptx
+[M] File changed: PhD/ppt_file.pptx
+Uploading differences of PhD/ppt_file.pptx
+Uploading new items of PhD/ppt_file.pptx
+[DEBUG] Checking file: PhD/ppt_file.pptx
+Uploading new file PhD/ppt_file.pptx ... done.
+[DEBUG] Adding to database: Item("634e7a42d2e3dd1a", "634E7A42D2E3DD1A!159798", "ppt_file.pptx", file, "aNjM0RTdBNDJEMkUzREQxQSExNTk3OTguMg", "aYzo2MzRFN0E0MkQyRTNERDFBITE1OTc5OC4yNTc", 2019-Nov-01 09:14:52.117Z, "634E7A42D2E3DD1A!132858", "", "39D8F80742EF7FB0C29D4E9FC90616D9E7148E0B", "", "", "")
+Remaining free space: 1034939407257
+Got termination signal, shutting down db connection
